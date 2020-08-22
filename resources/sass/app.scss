@@ -46,13 +46,35 @@ h2 {
     text-align: center;
 }
 
-p {
+h3 {
+    font-family: $primaryFont;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+p, ul {
     font-family: $secondaryFont;
 }
 
 hr {
     color: $ddgrey;
     width: 100px;
+}
+
+.buy-button {
+    padding: 15px 20px;
+    margin-right: 10px;
+    background: $ddorange;
+    color: $ddwhite;
+    transition: 0.2s ease-in;
+    text-decoration: none;
+    font-family: $primaryFont;
+
+    &:hover {
+        background: $ddgreen;
+        color: $ddblack;
+        cursor: pointer;
+    }
 }
 
 footer {

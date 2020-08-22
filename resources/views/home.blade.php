@@ -15,6 +15,13 @@
 </div>
 <div id="books">
     <h2>Books</h2>
+    @foreach ($books as $book)
+        <h3>{{ $book->title }}</h3>
+        <div>{!! $book->blurb !!}</div>
+        <a class="buy-button" href={{$book->amzuk}}>Buy on Amazon (UK)</a>
+        <a class="buy-button" href={{$book->amzus}}>Buy on Amazon (.com)</a>
+
+    @endforeach
 </div>
 <div id="training">
     <h2>Training</h2>

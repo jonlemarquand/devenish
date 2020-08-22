@@ -35,13 +35,36 @@ h2 {
   text-align: center;
 }
 
-p {
+h3 {
+  font-family: "Raleway", sans-serif;
+  font-size: 24px;
+  font-weight: 600;
+}
+
+p,
+ul {
   font-family: "Open Sans", sans-serif;
 }
 
 hr {
   color: #5F6B77;
   width: 100px;
+}
+
+.buy-button {
+  padding: 15px 20px;
+  margin-right: 10px;
+  background: #D16528;
+  color: #ffffff;
+  transition: 0.2s ease-in;
+  text-decoration: none;
+  font-family: "Raleway", sans-serif;
+}
+
+.buy-button:hover {
+  background: #C9D255;
+  color: #1D1D1D;
+  cursor: pointer;
 }
 
 footer {
